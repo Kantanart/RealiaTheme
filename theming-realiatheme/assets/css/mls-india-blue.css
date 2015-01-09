@@ -2973,7 +2973,7 @@ body a{
 transition:color 0.1s ease-in;
 color:#06A7EA}
 body a:hover{
-color:#ffffff;
+
 text-decoration:none}
 body p{
 line-height:20px}
@@ -3279,7 +3279,7 @@ body.header-dark #header-inner .site-email a{
 background-image:url("../img/icons/mail@2x.png") !important}
 }
 /*Header Dark dark*/
-body.header-dark-dark .navigation-wrapper .navigation .nav li.menuparent > .nolink, .navigation-wrapper .navigation .nav li.menuparent > a{
+body.header-dark-dark .navigation-wrapper .navigation .nav li.menuparent > .nolink, body.header-dark-dark .navigation-wrapper .navigation .nav li.menuparent > a{
     background-image: url("../img/arrow-bottom-white.png");
 }
 body.header-dark-dark #navigation{

@@ -267,6 +267,11 @@ function nr_phone(){
 jq=$;
 $(document).ready(function() {
     nr_phone();
+    if($(".accordion").length >0){
+        $( "table.accordion_table" ).wrap( "<div class='accordion_wrapper'></div>" );
+        $( ".accordion" ).accordion({ header: "h2", heightStyle:"content", collapsible: true, active:false });
+    }
+
     
     if($("#portal-searchbox").length >0){
         have_search();
