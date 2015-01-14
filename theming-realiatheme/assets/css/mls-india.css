@@ -90,8 +90,8 @@ body.header-light .breadcrumb-wrapper{
     color: #707070;
     font-weight: bold;
 }
-dl.portlet {
-    background-color: #ffffff !important;
+.portlet {
+    background-color: #ffffff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
     padding: 1px 20px;
 }
