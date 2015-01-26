@@ -151,8 +151,8 @@ form input.standalone[type="submit"]{
 form input.standalone[type="submit"]:hover{
     background-color: #045e83;
 }
-.portletCalendar #calendar-next , .portletCalendar #calendar-previous{
-    margin: 0 !important;
+#content .portletCalendar .portletHeader{
+    font-size: 22px;
 }
 #site_contact_phone {
     padding: 0 !important;
