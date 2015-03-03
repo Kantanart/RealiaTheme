@@ -2186,7 +2186,7 @@ ul, ol {
 }
 
 .plan-included{
-  background: url('checkmark.png') no-repeat center padding-box transparent;
+  background: url('img/checkmark.png') no-repeat center padding-box transparent;
   width:22px;
   height:16px;
 }
